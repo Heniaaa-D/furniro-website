@@ -1,0 +1,714 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product</title>
+    <link href="./output.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="flex flex-col">
+      <!-- section-one  -->
+      <div class="sticky w-full py-8 bg-white/90 top-0 z-[9999]">
+        <div class="container flex items-center w-full justify-between">
+          <div class="flex">
+            <img src="images/Meubel House_Logos-05.png" />
+            <p class="font-bold text-4xl">Furniro</p>
+          </div>
+          <div
+            class="md:hidden flex flex-col gap-1 absolute top-10 right-5 cursor-pointer"
+          >
+            <div class="w-5 h-0.5 bg-black"></div>
+            <div class="w-5 h-0.5 bg-black"></div>
+            <div class="w-5 h-0.5 bg-black"></div>
+          </div>
+          <div class="md:flex hidden gap-20">
+            <a href="/src/index.html" class="font-medium text-base">Home</a>
+            <a href="/src/shop.html" class="font-medium text-base">Shop</a>
+            <a class="font-medium text-base">About</a>
+            <a href="/src/contact.html" class="font-medium text-base"
+              >Contact</a
+            >
+          </div>
+          <div class="md:flex hidden gap-11">
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.3333 14V8.16669H25.6666V15.1667H23.3333M23.3333 19.8334H25.6666V17.5H23.3333M11.6666 15.1667C14.7816 15.1667 21 16.73 21 19.8334V23.3334H2.33331V19.8334C2.33331 16.73 8.55165 15.1667 11.6666 15.1667ZM11.6666 4.66669C12.9043 4.66669 14.0913 5.15835 14.9665 6.03352C15.8416 6.90869 16.3333 8.09568 16.3333 9.33335C16.3333 10.571 15.8416 11.758 14.9665 12.6332C14.0913 13.5084 12.9043 14 11.6666 14C10.429 14 9.24198 13.5084 8.36682 12.6332C7.49164 11.758 6.99998 10.571 6.99998 9.33335C6.99998 8.09568 7.49164 6.90869 8.36682 6.03352C9.24198 5.15835 10.429 4.66669 11.6666 4.66669ZM11.6666 17.3834C8.20165 17.3834 4.54998 19.0867 4.54998 19.8334V21.1167H18.7833V19.8334C18.7833 19.0867 15.1316 17.3834 11.6666 17.3834ZM11.6666 6.88335C11.0169 6.88335 10.3937 7.14148 9.93424 7.60094C9.47477 8.06041 9.21665 8.68357 9.21665 9.33335C9.21665 9.98313 9.47477 10.6063 9.93424 11.0658C10.3937 11.5252 11.0169 11.7834 11.6666 11.7834C12.3164 11.7834 12.9396 11.5252 13.3991 11.0658C13.8585 10.6063 14.1166 9.98313 14.1166 9.33335C14.1166 8.68357 13.8585 8.06041 13.3991 7.60094C12.9396 7.14148 12.3164 6.88335 11.6666 6.88335Z"
+                fill="black"
+              />
+            </svg>
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M24.5 24.5L19.2664 19.257M22.1667 12.25C22.1667 14.88 21.1219 17.4024 19.2622 19.2621C17.4024 21.1219 14.8801 22.1666 12.25 22.1666C9.61998 22.1666 7.09763 21.1219 5.2379 19.2621C3.37816 17.4024 2.33337 14.88 2.33337 12.25C2.33337 9.61992 3.37816 7.09757 5.2379 5.23784C7.09763 3.3781 9.61998 2.33331 12.25 2.33331C14.8801 2.33331 17.4024 3.3781 19.2622 5.23784C21.1219 7.09757 22.1667 9.61992 22.1667 12.25V12.25Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+              />
+            </svg>
+            <svg
+              width="28"
+              height="28"
+              viewBox="0 0 28 28"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M8.16671 3.5C4.94554 3.5 2.33337 6.08533 2.33337 9.275C2.33337 11.8498 3.35421 17.9608 13.4027 24.1383C13.5827 24.2479 13.7893 24.3058 14 24.3058C14.2107 24.3058 14.4174 24.2479 14.5974 24.1383C24.6459 17.9608 25.6667 11.8498 25.6667 9.275C25.6667 6.08533 23.0545 3.5 19.8334 3.5C16.6122 3.5 14 7 14 7C14 7 11.3879 3.5 8.16671 3.5Z"
+                stroke="black"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <a href="/src/cart-sidebar.html">
+              <svg
+                width="28"
+                height="28"
+                viewBox="0 0 28 28"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M25.2356 19.1926H8.95237L9.76995 17.5273L23.3543 17.5027C23.8137 17.5027 24.2074 17.1746 24.2895 16.7207L26.1707 6.19062C26.2199 5.91445 26.1461 5.63008 25.9656 5.41406C25.8765 5.30775 25.7652 5.22211 25.6396 5.16309C25.514 5.10407 25.3771 5.07308 25.2383 5.07227L7.95706 5.01484L7.8094 4.32031C7.71643 3.87734 7.31721 3.55469 6.86331 3.55469H2.6387C2.3827 3.55469 2.13719 3.65638 1.95617 3.8374C1.77516 4.01841 1.67346 4.26393 1.67346 4.51992C1.67346 4.77592 1.77516 5.02143 1.95617 5.20245C2.13719 5.38346 2.3827 5.48516 2.6387 5.48516H6.08127L6.72659 8.55312L8.31526 16.2449L6.26995 19.5836C6.16373 19.727 6.09975 19.8972 6.08526 20.075C6.07076 20.2528 6.10632 20.4312 6.18791 20.5898C6.35198 20.9152 6.68284 21.1203 7.04924 21.1203H8.76643C8.40035 21.6065 8.20261 22.1988 8.20315 22.8074C8.20315 24.3551 9.46096 25.6129 11.0086 25.6129C12.5563 25.6129 13.8141 24.3551 13.8141 22.8074C13.8141 22.1977 13.6117 21.6043 13.2508 21.1203H17.6559C17.2898 21.6065 17.0921 22.1988 17.0926 22.8074C17.0926 24.3551 18.3504 25.6129 19.8981 25.6129C21.4457 25.6129 22.7035 24.3551 22.7035 22.8074C22.7035 22.1977 22.5012 21.6043 22.1403 21.1203H25.2383C25.7688 21.1203 26.2035 20.6883 26.2035 20.1551C26.202 19.8994 26.0993 19.6546 25.9179 19.4743C25.7366 19.294 25.4913 19.1927 25.2356 19.1926ZM8.35901 6.91797L24.1035 6.96992L22.5613 15.6051L10.1938 15.627L8.35901 6.91797ZM11.0086 23.6715C10.5328 23.6715 10.1446 23.2832 10.1446 22.8074C10.1446 22.3316 10.5328 21.9434 11.0086 21.9434C11.4844 21.9434 11.8727 22.3316 11.8727 22.8074C11.8727 23.0366 11.7816 23.2564 11.6196 23.4184C11.4576 23.5805 11.2378 23.6715 11.0086 23.6715ZM19.8981 23.6715C19.4223 23.6715 19.034 23.2832 19.034 22.8074C19.034 22.3316 19.4223 21.9434 19.8981 21.9434C20.3739 21.9434 20.7621 22.3316 20.7621 22.8074C20.7621 23.0366 20.6711 23.2564 20.5091 23.4184C20.347 23.5805 20.1272 23.6715 19.8981 23.6715Z"
+                  fill="black"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- section-two  -->
+      <div class="container flex items-center gap-6 py-8 bg-dark-beige">
+        <a href="/src/index.html" class="text-base text-gray-400"> Home </a>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
+        </svg>
+        <a href="/src/shop.html" class="text-base text-gray-400"> Shop </a>
+        <svg
+          width="20"
+          height="20"
+          viewBox="0 0 20 20"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M6 15L11 10L6 5L7 3L14 10L7 17L6 15Z" fill="black" />
+        </svg>
+        <div class="flex items-center gap-12">
+          <div class="h-9 w-0.5 bg-gray-400"></div>
+          <p class="text-base">Asgaard sofa</p>
+        </div>
+      </div>
+      <!-- section-three  -->
+      <div
+        class="container md:flex-row flex flex-col py-9 gap-28 border-b border-gray-300"
+      >
+        <div
+          class="flex md:flex-row flex-col-reverse gap-8 md:items-start items-center w-full"
+        >
+          <div
+            class="flex md:flex-col md:w-fit w-full flex-row items-center gap-8 shrink-0"
+          >
+            <img src="images/Group 94.png" class="w-full h-20 object-cover" />
+            <img src="images/Group 98.png" class="w-full h-20 object-cover" />
+            <img src="images/Group 97.png" class="w-full h-20 object-cover" />
+            <img src="images/Group 96.png" class="w-full h-20 object-cover" />
+          </div>
+          <img src="images/Group 95.png" />
+        </div>
+        <div class="flex flex-col gap-4 w-full">
+          <p class="md:text-[42px] text-3xl">Asgaard sofa</p>
+          <p class="font-medium md:text-2xl text-lg text-gray-400">
+            Rs. 250,000.00
+          </p>
+          <div class="flex md:gap-5 gap-2 items-center">
+            <svg
+              width="124"
+              height="20"
+              viewBox="0 0 124 20"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M10 1L13 7L19 7.75L14.88 12.37L16 19L10 16L4 19L5.13 12.37L1 7.75L7 7L10 1Z"
+                fill="#FFC700"
+              />
+              <path
+                d="M36 1L39 7L45 7.75L40.88 12.37L42 19L36 16L30 19L31.13 12.37L27 7.75L33 7L36 1Z"
+                fill="#FFC700"
+              />
+              <path
+                d="M62 1L65 7L71 7.75L66.88 12.37L68 19L62 16L56 19L57.13 12.37L53 7.75L59 7L62 1Z"
+                fill="#FFC700"
+              />
+              <path
+                d="M88 1L91 7L97 7.75L92.88 12.37L94 19L88 16L82 19L83.13 12.37L79 7.75L85 7L88 1Z"
+                fill="#FFC700"
+              />
+              <path
+                d="M111.156 7.0125L104.8 7.9375L109.4 12.4188L108.313 18.75L114 15.7625V1.25L111.156 7.0125Z"
+                fill="#FFC700"
+              />
+            </svg>
+            <div class="h-7 w-0.5 bg-gray-400"></div>
+            <p class="text-sm text-gray-400">5 Customer <br />Review</p>
+          </div>
+          <p class="text-sm">
+            Setting the bar as one of the loudest speakers in its class, the<br />
+            Kilburn is a compact, stout-hearted hero with a well-balanced
+            audio<br />
+            which boasts a clear midrange and extended highs for a sound.
+          </p>
+          <p class="text-sm text-gray-400">Size</p>
+          <div class="flex gap-4">
+            <button
+              class="w-7 h-7 hover:bg-brown bg-dark-beige hover:text-white text-black rounded-sm text-[13px]"
+            >
+              L
+            </button>
+            <button
+              class="bg-dark-beige hover:bg-brown hover:text-white w-7 h-7 rounded-sm text-black text-[13px]"
+            >
+              XL
+            </button>
+            <button
+              class="bg-dark-beige hover:bg-brown hover:text-white w-7 h-7 rounded-sm text-black text-[13px]"
+            >
+              XS
+            </button>
+          </div>
+          <p class="text-sm text-gray-400">Color</p>
+          <div class="flex gap-4 pb-4">
+            <div
+              style="background-color: #816dfa"
+              class="w-7 h-7 rounded-full"
+            ></div>
+            <div class="rounded-full bg-black w-7 h-7"></div>
+            <div class="rounded-full w-7 h-7 bg-brown"></div>
+          </div>
+          <div class="flex md:flex-row flex-col gap-4 w-full pb-10">
+            <div
+              class="flex items-center justify-center gap-9 py-5 px-4 border hover:border-black border-gray-400 rounded-lg text-base"
+            >
+              <button class="cursor-pointer">-</button>
+              <p>1</p>
+              <button class="cursor-pointer">+</button>
+            </div>
+            <button
+              class="flex-1 border border-black text-black hover:text-white bg-white hover:bg-black rounded-lg cursor-pointer"
+            >
+              Add to cart
+            </button>
+            <button
+              class="flex-1 border border-black rounded-lg cursor-pointer text-black hover:text-white bg-white hover:bg-black"
+            >
+              + Compare
+            </button>
+          </div>
+          <div class="border border-t-[0.5px] border-gray-300"></div>
+          <div class="flex gap-4 text-gray-400">
+            <div class="flex flex-col gap-4">
+              <p>SKU</p>
+              <p>Category</p>
+              <p>Tags</p>
+              <p>Share</p>
+            </div>
+            <div class="flex flex-col gap-4">
+              <p>:</p>
+              <p>:</p>
+              <p>:</p>
+              <p>:</p>
+            </div>
+            <div class="flex flex-col gap-4">
+              <p>SS001</p>
+              <p>Sofas</p>
+              <p>Sofa, Chair, Home, Shop</p>
+              <div class="flex gap-6">
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_117_920)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0 10.0558C0 15.0275 3.61083 19.1617 8.33333 20V12.7775H5.83333V10H8.33333V7.7775C8.33333 5.2775 9.94417 3.88917 12.2225 3.88917C12.9442 3.88917 13.7225 4 14.4442 4.11083V6.66667H13.1667C11.9442 6.66667 11.6667 7.2775 11.6667 8.05583V10H14.3333L13.8892 12.7775H11.6667V20C16.3892 19.1617 20 15.0283 20 10.0558C20 4.525 15.5 0 10 0C4.5 0 0 4.525 0 10.0558Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_117_920">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 20 20"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_117_924)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0.833252 2.365C0.833252 1.95877 0.994624 1.56919 1.28187 1.28195C1.56911 0.994702 1.9587 0.83333 2.36492 0.83333H17.6333C17.8346 0.833001 18.034 0.872383 18.22 0.949219C18.4061 1.02606 18.5752 1.13884 18.7176 1.28111C18.8601 1.42338 18.973 1.59235 19.0501 1.77834C19.1271 1.96433 19.1667 2.16368 19.1666 2.365V17.6333C19.1668 17.8347 19.1273 18.0341 19.0504 18.2202C18.9735 18.4063 18.8606 18.5753 18.7183 18.7178C18.5759 18.8602 18.4069 18.9731 18.2209 19.0502C18.0348 19.1272 17.8354 19.1668 17.6341 19.1667H2.36492C2.16371 19.1667 1.96447 19.127 1.77858 19.05C1.5927 18.973 1.42381 18.8601 1.28157 18.7178C1.13933 18.5754 1.02653 18.4065 0.949604 18.2206C0.87268 18.0346 0.833143 17.8354 0.833252 17.6342V2.365ZM8.08992 7.82333H10.5724V9.07C10.9308 8.35333 11.8474 7.70833 13.2249 7.70833C15.8658 7.70833 16.4916 9.13583 16.4916 11.755V16.6067H13.8191V12.3517C13.8191 10.86 13.4608 10.0183 12.5508 10.0183C11.2883 10.0183 10.7633 10.9258 10.7633 12.3517V16.6067H8.08992V7.82333ZM3.50659 16.4925H6.17992V7.70833H3.50659V16.4917V16.4925ZM6.56242 4.84333C6.56746 5.07222 6.52673 5.29982 6.44262 5.51276C6.35851 5.7257 6.23271 5.91969 6.07261 6.08336C5.91251 6.24702 5.72133 6.37706 5.5103 6.46584C5.29926 6.55461 5.07262 6.60035 4.84367 6.60035C4.61472 6.60035 4.38808 6.55461 4.17704 6.46584C3.966 6.37706 3.77483 6.24702 3.61473 6.08336C3.45463 5.91969 3.32883 5.7257 3.24472 5.51276C3.16061 5.29982 3.11988 5.07222 3.12492 4.84333C3.13481 4.39404 3.32024 3.96649 3.64149 3.65224C3.96274 3.33798 4.39427 3.16201 4.84367 3.16201C5.29307 3.16201 5.7246 3.33798 6.04585 3.65224C6.3671 3.96649 6.55253 4.39404 6.56242 4.84333Z"
+                      fill="black"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_117_924">
+                      <rect width="20" height="20" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <svg
+                  width="25"
+                  height="25"
+                  viewBox="0 0 25 25"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M12.5 1.5625C6.45996 1.5625 1.5625 6.45996 1.5625 12.5C1.5625 18.54 6.45996 23.4375 12.5 23.4375C18.54 23.4375 23.4375 18.54 23.4375 12.5C23.4375 6.45996 18.54 1.5625 12.5 1.5625ZM17.7563 9.80713C17.7637 9.92188 17.7637 10.0415 17.7637 10.1587C17.7637 13.7427 15.0342 17.8711 10.0464 17.8711C8.5083 17.8711 7.08252 17.4243 5.88135 16.6553C6.10107 16.6797 6.31104 16.6895 6.53565 16.6895C7.80518 16.6895 8.97217 16.2598 9.90234 15.5322C8.71094 15.5078 7.70996 14.7266 7.36816 13.6523C7.78564 13.7134 8.16162 13.7134 8.59131 13.6035C7.97785 13.4789 7.42645 13.1457 7.0308 12.6606C6.63515 12.1755 6.41964 11.5684 6.4209 10.9424V10.9082C6.77979 11.1108 7.20215 11.2354 7.64404 11.2524C7.27256 11.0049 6.96792 10.6695 6.75711 10.276C6.5463 9.88244 6.43585 9.443 6.43555 8.99658C6.43555 8.49121 6.56738 8.02979 6.8042 7.62939C7.48511 8.46762 8.33479 9.15318 9.29801 9.64152C10.2612 10.1299 11.3164 10.41 12.395 10.4639C12.0117 8.62061 13.3887 7.12891 15.0439 7.12891C15.8252 7.12891 16.5283 7.45605 17.0239 7.9834C17.6367 7.86865 18.2227 7.63916 18.7451 7.33154C18.5425 7.95898 18.1177 8.48877 17.5537 8.82324C18.1006 8.76465 18.6279 8.61328 19.1162 8.40088C18.7476 8.94287 18.2861 9.42383 17.7563 9.80713Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section-four  -->
+      <div class="container border-b border-gray-300">
+        <div class="w-full flex flex-col md:items-center md:gap-9 gap-7 py-12">
+          <div
+            class="md:px-20 flex flex-col md:gap-9 gap-4 md:items-center text-gray-500"
+          >
+            <div
+              class="flex md:flex-row flex-col md:gap-12 gap-4 md:text-2xl text-xl"
+            >
+              <p class="font-medium">Description</p>
+              <p>Additional Information</p>
+              <p>Reviews [5]</p>
+            </div>
+            <p>
+              Embodying the raw, wayward spirit of rock and roll, the Kilburn
+              portable active stereo speaker takes the unmistakable look and
+              sound of Marshall, unplugs the chords, and takes the show on the
+              road.
+            </p>
+            <p>
+              Weighing in under 7 pounds, the Kilburn is a lightweight piece of
+              vintage styled engineering. Setting the bar as one of the loudest
+              speakers in its class, the Kilburn is a compact, stout-hearted
+              hero with a well-balanced audio which boasts a clear midrange and
+              extended highs for a sound that is both articulate and pronounced.
+              The analogue knobs allow you to fine tune the controls to your
+              personal preferences while the guitar-influenced leather strap
+              enables easy and stylish travel.
+            </p>
+          </div>
+          <div class="grid md:grid-cols-2 md:gap-7 gap-3 w-full">
+            <img src="images/Group 107.png" class="flex-1" />
+            <img src="images/Group 106.png" class="flex-1" />
+          </div>
+        </div>
+      </div>
+      <!-- section-five  -->
+      <div class="flex flex-col container gap-7 items-center">
+        <p class="text-4xl font-medium pt-10">Related Products</p>
+        <div
+          class="grid md:grid-cols-4 sm:grid-cols-2 grid-cols-1 w-full gap-8"
+        >
+          <div class="flex flex-col w-full bg-lightgray relative group">
+            <img src="images/Images (21).png" />
+            <div class="flex flex-col p-4 gap-2">
+              <p class="text-2xl font-semibold">Syltherine</p>
+              <p class="text-darkgray font-medium">Stylish cafe chair</p>
+              <div class="flex gap-4 items-center">
+                <p class="font-semibold text-[20px]">Rp 2.500.000</p>
+                <div class="w-max relative">
+                  <p class="text-darkgray text-base">Rp 3.500.000</p>
+                  <span
+                    class="bg-darkgray w-full h-0.5 absolute top-1/2"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 group-hover:bg-black/50 transition-all duration-500"
+            >
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center gap-2 transition-all duration-500 text-white"
+              >
+                <button
+                  class="bg-white cursor-pointer text-light-brown py-3 px-14 font-semibold"
+                >
+                  Add to cart
+                </button>
+                <div class="flex gap-5 items-center">
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Share</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Compare</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.99973 14.0361C-5.33333 6.66669 3.99999 -1.33331 7.99973 3.72539C12 -1.33331 21.3333 6.66669 7.99973 14.0361Z"
+                        stroke="white"
+                        stroke-width="1.8"
+                      />
+                    </svg>
+                    <p>Like</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col bg-lightgray relative group">
+            <img src="images/Images (22).png" />
+            <div
+              class="rounded-full w-12 h-12 bg-red-400 flex items-center justify-center text-white absolute top-2 right-2"
+            >
+              <p>-30%</p>
+            </div>
+            <div class="flex flex-col p-4 gap-2">
+              <p class="font-semibold text-2xl">Leviosa</p>
+              <p class="font-medium text-gray-500">Stylish cafe chair</p>
+              <p class="font-semibold text-[20px]">Rp 2.500.000</p>
+            </div>
+            <div
+              class="absolute inset-0 group-hover:bg-black/50 transition-all duration-500"
+            >
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center gap-2 transition-all duration-500 text-white"
+              >
+                <button
+                  class="bg-white text-light-brown py-3 px-14 font-semibold cursor-pointer"
+                >
+                  Add to cart
+                </button>
+                <div class="flex gap-5 items-center">
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Share</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Compare</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.99973 14.0361C-5.33333 6.66669 3.99999 -1.33331 7.99973 3.72539C12 -1.33331 21.3333 6.66669 7.99973 14.0361Z"
+                        stroke="white"
+                        stroke-width="1.8"
+                      />
+                    </svg>
+                    <p>Like</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="flex flex-col bg-lightgray relative group">
+            <img src="images/Images (23).png" />
+            <div
+              class="absolute w-12 h-12 flex items-center justify-center bg-red-400 rounded-full top-2 right-2 text-white"
+            >
+              <p>-50%</p>
+            </div>
+            <div class="flex flex-col gap-2 p-4">
+              <p class="font-semibold text-2xl">Lolito</p>
+              <p class="font-medium text-gray-500">Luxury big sofa</p>
+              <div class="flex gap-4 items-center">
+                <p class="font-semibold text-[20px]">Rp 7.000.000</p>
+                <div class="relative w-max items-center">
+                  <p class="text-darkgray">Rp 14.000.000</p>
+                  <span
+                    class="absolute top-1/2 w-full h-0.5 bg-darkgray"
+                  ></span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="absolute inset-0 group-hover:bg-black/50 transition-all duration-500"
+            >
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col gap-2 items-center justify-center transition-all duration-500 text-white"
+              >
+                <button
+                  class="cursor-pointer text-light-brown bg-white py-3 px-14 font-semibold"
+                >
+                  Add to cart
+                </button>
+                <div class="flex gap-5 items-center">
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Share</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Compare</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.99973 14.0361C-5.33333 6.66669 3.99999 -1.33331 7.99973 3.72539C12 -1.33331 21.3333 6.66669 7.99973 14.0361Z"
+                        stroke="white"
+                        stroke-width="1.8"
+                      />
+                    </svg>
+                    <p>Like</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-col bg-lightgray relative group">
+            <img src="images/Images (24).png" />
+            <div
+              class="absolute top-2 right-2 rounded-full w-12 h-12 bg-light-green flex items-center justify-center text-white"
+            >
+              New
+            </div>
+            <div class="flex flex-col p-4 gap-2">
+              <p class="font-semibold text-2xl">Respira</p>
+              <p class="font-medium text-base text-gray-500">
+                Outdoor bar table and stool
+              </p>
+              <p class="font-semibold text-[20px]">Rp 500.000</p>
+            </div>
+            <div
+              class="absolute inset-0 group-hover:bg-black/50 transition-all duration-500"
+            >
+              <div
+                class="absolute inset-0 opacity-0 group-hover:opacity-100 flex flex-col gap-2 items-center justify-center transition-all duration-500 text-white"
+              >
+                <button
+                  class="cursor-pointer text-light-brown bg-white py-3 px-14 font-semibold"
+                >
+                  Add to cart
+                </button>
+                <div class="flex gap-5 items-center">
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 10.6667C11.4747 10.6667 11 10.8734 10.644 11.2047L5.94 8.46671C5.97333 8.31337 6 8.16004 6 8.00004C6 7.84004 5.97333 7.68671 5.94 7.53337L10.64 4.79337C11 5.12671 11.4733 5.33337 12 5.33337C13.1067 5.33337 14 4.44004 14 3.33337C14 2.22671 13.1067 1.33337 12 1.33337C10.8933 1.33337 10 2.22671 10 3.33337C10 3.49337 10.0267 3.64671 10.06 3.80004L5.36 6.54004C5 6.20671 4.52667 6.00004 4 6.00004C2.89333 6.00004 2 6.89337 2 8.00004C2 9.10671 2.89333 10 4 10C4.52667 10 5 9.79337 5.36 9.46004L10.0587 12.2054C10.0211 12.3563 10.0014 12.5112 10 12.6667C10 13.0623 10.1173 13.4489 10.3371 13.7778C10.5568 14.1067 10.8692 14.3631 11.2346 14.5145C11.6001 14.6658 12.0022 14.7054 12.3902 14.6283C12.7781 14.5511 13.1345 14.3606 13.4142 14.0809C13.6939 13.8012 13.8844 13.4448 13.9616 13.0569C14.0387 12.6689 13.9991 12.2668 13.8478 11.9013C13.6964 11.5359 13.44 11.2235 13.1111 11.0038C12.7822 10.784 12.3956 10.6667 12 10.6667Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Share</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M10.08 7L11.08 8L14.52 4.55L11 1L10 2L11.8 3.8H2.00004V5.2H11.82L10.08 7ZM5.86004 9L4.86004 8L1.42004 11.5L4.91004 15L5.91004 14L4.10004 12.2H14V10.8H4.10004L5.86004 9Z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p>Compare</p>
+                  </div>
+                  <div class="flex gap-1 items-center cursor-pointer">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M7.99973 14.0361C-5.33333 6.66669 3.99999 -1.33331 7.99973 3.72539C12 -1.33331 21.3333 6.66669 7.99973 14.0361Z"
+                        stroke="white"
+                        stroke-width="1.8"
+                      />
+                    </svg>
+                    <p>Like</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pb-10">
+          <a href="shop.html">
+            <button
+              class="px-16 py-3 border border-light-brown bg-white text-light-brown font-semibold cursor-pointer"
+            >
+              Show More
+            </button>
+          </a>
+        </div>
+      </div>
+      <div
+        class="container flex flex-col gap-12 border-t border-gray-500 w-full py-12"
+      >
+        <div
+          class="md:flex-row flex flex-col w-full justify-between pb-12 border-b"
+        >
+          <div class="flex flex-col gap-12">
+            <div><h3 class="font-bold text-2xl">Funiro.</h3></div>
+            <div>
+              <p class="text-base text-gray-400">
+                400 University Drive Suite 200 Coral
+              </p>
+              <p class="text-base text-gray-400">Gables,</p>
+              <p class="text-base text-gray-400">FL 33134 USA</p>
+            </div>
+          </div>
+          <div class="hidden md:flex flex-col gap-12">
+            <p class="text-gray-400">Links</p>
+            <p>Home</p>
+            <p>Shop</p>
+            <p>About</p>
+            <p>Contact</p>
+          </div>
+          <div class="hidden md:flex flex-col gap-12">
+            <p class="text-gray-400">Help</p>
+            <p>Payment Options</p>
+            <p>Returns</p>
+            <p>Privacy Policies</p>
+          </div>
+          <div class="flex flex-col gap-12">
+            <p class="text-gray-400">Newsletter</p>
+            <div class="flex gap-5">
+              <div class="flex flex-col w-max">
+                <input type="text" placeholder="Enter Your Email Address" />
+                <div class="w-full bg-gray-400 h-px"></div>
+              </div>
+              <div class="flex flex-col w-max">
+                <p>SUBSCRIBE</p>
+                <div class="w-full bg-gray-400 h-px"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p>2023 furino. All rights reverved</p>
+      </div>
+    </div>
+  </body>
+</html>
